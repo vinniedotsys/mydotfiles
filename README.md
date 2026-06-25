@@ -1,4 +1,4 @@
-#My dotfiles
+# My dotfiles
 
 Current conf : 
  - Hyprland (WIP, migrating to lua)
