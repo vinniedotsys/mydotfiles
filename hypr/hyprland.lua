@@ -43,25 +43,17 @@ require("conf.autostart")
 -- -----------------------------------------------------
 -- Load configuration files
 -- -----------------------------------------------------
--- Source: ~/.config/hypr/conf/window.conf — convert this file to Lua and ensure it is on Lua's package.path.
 require("conf.window")
--- Source: ~/.config/hypr/conf/decoration.conf — convert this file to Lua and ensure it is on Lua's package.path.
 require("conf.decoration")
--- Source: ~/.config/hypr/conf/layout.conf — convert this file to Lua and ensure it is on Lua's package.path.
 require("conf.layout")
--- Source: ~/.config/hypr/conf/workspace.conf — convert this file to Lua and ensure it is on Lua's package.path.
 require("conf.workspace")
--- Source: ~/.config/hypr/conf/misc.conf — convert this file to Lua and ensure it is on Lua's package.path.
 require("conf.misc")
--- Source: ~/.config/hypr/conf/keybinding.conf — convert this file to Lua and ensure it is on Lua's package.path.
 require("conf.keybinding")
--- Source: ~/.config/hypr/conf/windowrule.conf — convert this file to Lua and ensure it is on Lua's package.path.
 require("conf.windowrule")
 
 -- -----------------------------------------------------
 -- Animation
 -- -----------------------------------------------------
--- Source: ~/.config/hypr/conf/animation.conf — convert this file to Lua and ensure it is on Lua's package.path.
 require("conf.animation")
 
 -- -----------------------------------------------------
