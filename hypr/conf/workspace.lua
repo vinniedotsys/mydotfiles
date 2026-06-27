@@ -54,10 +54,10 @@ hl.workspace_rule({
 
 hl.workspace_rule({
     workspace = "5",
-    ["on-created-empty"] = "keepassxc",
+    on_created_empty = "keepassxc",
 })
 
 hl.workspace_rule({
     workspace = "3",
-    ["on-created-empty"] = "webcord",
+    on_created_empty = "webcord",
 })
