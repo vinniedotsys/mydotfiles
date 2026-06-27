@@ -3,8 +3,8 @@
 -- -----------------------------------------------------
 hl.config({
     general = {
-        gaps_in = 10,
-        gaps_out = 14,
+        gaps_in = 3,
+        gaps_out = 3,
         border_size = 3,
         col = {
             active_border = color11,
