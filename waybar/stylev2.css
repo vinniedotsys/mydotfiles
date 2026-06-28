@@ -1,0 +1,156 @@
+/* General */ 
+@import "./nord.css";
+
+* {
+    font-family: "Fira Sans Semibold", "Font Awesome 7 Free", "Font Awesome 7 Brands", "Font Awesome 6 Free", "Font Awesome 6 Brands", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    border: none;
+    border-radius: 1em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+window#waybar {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  box-shadow: none;
+}
+
+.modules-left {
+    margin:0.2em 0em 0.2em 0.3em;
+}
+
+.modules-right {
+    margin:0.2em 0.3em 0.2em 0em;
+}
+
+.modules-center {
+    margin:0.2em 0em 0.2em 0em;
+}
+
+/* -----------------------------------------------------
+ * Workspaces
+ * ----------------------------------------------------- */
+
+#workspaces {
+    background: @nord0;
+    margin: 0em 0.4em 0.2em 0.4em;
+    padding: 0.25em 0.375em;
+    border-radius: 1em;
+    font-weight: bold;
+    font-style: normal;
+    opacity: 1.0;
+    color: @nord3;
+}
+
+#workspaces button {
+    padding: 0 0.375em;
+    margin: 0.188em 0.125em;
+    border-radius: 0.625em;
+    color: @nord4;
+    background-color: @nord3;
+    transition: all 0.1s linear;
+    opacity: 0.4;
+}
+
+#workspaces button.active {
+    color: @nord6;
+    background: @nord10;
+    border-radius: 0.675em;
+    min-width: 1.875em;
+    transition: all 0.1s linear;
+    opacity:1.0;
+}
+
+#workspaces button:hover {
+    color: @nord6;
+    background: @nord9;
+    border-radius: 1em;
+    opacity:0.7;
+}
+
+/* -----------------------------------------------------
+ * Tooltips
+ * ----------------------------------------------------- */
+
+tooltip {
+    border-radius: 1em;
+    background-color: @nord2;
+    opacity: 0.9;
+    padding: 5px;
+    margin: 0px;
+}
+
+tooltip label {
+    color: @nord5;
+}
+
+/* -----------------------------------------------------
+ * Modules
+ * ----------------------------------------------------- */
+#window {
+    margin: 0 2.5em;
+    color: @nord4;
+}
+
+#custom-gpu,
+#cpu,
+#temperature,
+#pulseaudio,
+#clock {
+    padding: 0.1em 0.4em;
+    margin: 0 0.4em 0.2em 0.4em;
+    background: @nord2;
+    color: @nord4;
+}
+
+#cpu{
+    margin-right: 0;
+    padding-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#temperature{
+    margin-left: 0;
+    padding-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#tray,
+#power-profiles-daemon,
+#custom-updates,
+#custom-exit{
+    margin: 0 0.2em 0.2em 0.2em;
+    padding: 0.25em 0.375em;
+
+}
+
+#tray,
+#power-profiles-daemon{
+    background: @nord1;
+}
+
+/* -----------------------------------------------------
+ * Custom Updates
+ * ----------------------------------------------------- */
+#custom-updates {
+    background: @nord4;
+    color: @nord2;  
+
+}
+
+#custom-updates.green {
+    background: @nord4;
+}
+
+#custom-updates.yellow {
+    background: @nord12;
+    color: @nord4;
+}
+
+#custom-updates.red {
+    background-color: @nord11;
+    color: @nord4;
+}
+

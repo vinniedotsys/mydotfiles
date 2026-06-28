@@ -1,0 +1,38 @@
+{
+    // General Settings
+    "layer": "top",
+    "position": "bottom",
+
+    // Load Modules
+    "include": "~/.config/waybar/modules.json",
+
+    // Modules Left
+    "modules-left": [
+        "hyprland/workspaces",
+        "custom/gpu",
+        "cpu",
+        "temperature",
+        "power-profiles-daemon",
+        "custom/updates"
+
+    ],
+
+    // Modules Center
+    "modules-center": [
+        "hyprland/window"
+        //"custom/empty"
+    ],
+
+    // Modules Right    
+    "modules-right": [
+        "pulseaudio",
+        "tray",
+        "custom/exit",
+        "clock"
+    ]
+
+
+
+
+
+}
