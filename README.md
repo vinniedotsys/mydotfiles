@@ -1,6 +1,6 @@
 # My dotfiles
 
 Current conf : 
- - Hyprland (WIP, migrating to lua)
- - Waybar (soon)
- - kitty (soon)
+ - Hyprland (ML4W inspired)
+ - Waybar
+ - kitty
