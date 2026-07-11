@@ -4,6 +4,7 @@ Current conf :
  - Hyprland 
  - Waybar
  - kitty
+ - nvim (soon)
 
 #Inspiration
 Heavily influenced by :
