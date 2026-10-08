@@ -75,7 +75,7 @@ hl.window_rule({
 
 hl.window_rule({
     match = {
-        class = "(Mullvad VPN)",
+        class = "(mullvad-vpn)",
     },
     float = true,
     move = "((monitor_w*1)-window_w-16) ((monitor_h*1)-window_h-44)",
